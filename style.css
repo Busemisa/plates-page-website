@@ -1,0 +1,398 @@
+.logo{
+    padding-left: 44px;
+    margin-top: -19px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.nav{
+    background-color:rgb(172, 172, 172) ;
+    
+}
+
+
+.navsection a{
+   
+    display: inline-block; /* Bağlantıları blok içinde inline olarak ayarlar */
+    margin-right: 13px; /* Bağlantılar arasındaki sağ marjini ayarlar */
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırır */
+    color: #333; /* Bağlantı renk */
+    font-weight: bold; /* Bağlantı metni kalın yapar */
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.user{
+    margin-left: 450px;
+    margin-top: -10px;
+    cursor: pointer;
+
+}
+
+.login{
+    margin-left: 480px;
+    margin-top: -14px;
+    cursor: pointer;
+    color: #333; /* Bağlantı renk */
+    font-weight: bold; /* Bağlantı metni kalın yapar */
+
+}
+
+
+.button_book{
+    color:black;
+    background-color: rgb(154, 135, 222);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    margin-left: 530px;
+    width: 100px;
+    margin-top: -40px
+    
+    
+    
+}
+
+.button_book:hover{
+    
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 2s;
+}
+
+.pluson_text{
+    margin-top: -20px;
+}
+
+.photo{
+    width: 100%;
+    
+}
+
+
+
+.photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute; /* Görselin üzerine konumlandırmak için overlay'ı mutlak konuma getirir */
+    top: 50%; /* Overlay'ı dikey olarak ortalar */
+    left: 50%; /* Overlay'ı yatay olarak ortalar */
+    transform: translate(-50%, -50%); /* Overlay'ı tam ortaya getirir */
+    text-align: center; /* Yazıları ve düğmeyi ortalar */
+}
+
+.overlay h2,
+.overlay p,
+.overlay button {
+    margin: 10px 0; /* Yazılar ve düğme arasında boşluk bırakır */
+}
+
+.big_text{
+    letter-spacing: 5px;
+    font-size: 70px;
+    color: #504f4f;
+}
+
+.under_big_text{
+    font-size: large;
+    color: #504f4f;
+}
+
+.second_button{
+    color:black;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    width: 150px;
+    padding: 10px;
+
+}
+
+.second_button:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #504f4f ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card{
+    border: 0.5px solid rgb(58, 58, 58);
+    border-radius: 0;
+    
+    
+    
+}
+
+.hr_style{
+    width: 50%;
+    
+    
+}
+
+.card p{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.card button{
+    width: 130px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    
+}
+
+.card button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    border: none;
+}
+
+.row {
+    display: flex;
+    gap: 10px; /* Cardlar arasında boşluk bırakır */
+    flex-wrap: nowrap; /* Kartların yan yana sıralanmasını sağlar */
+    overflow-x: auto; /* Eğer kartlar sığmazsa yatay kaydırma ekler */
+}
+
+.second_container{
+    margin-top: 40px;
+}
+
+
+
+
+
+.second_container {
+    position: relative;
+}
+
+.second_container img {
+    width: 100%;
+    height: auto;
+}
+
+.ek_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.7); /* Arkaplan rengi beyaz ve opaklık */
+    padding: 20px; /* İstenilen iç boşluk değeri */
+    box-sizing: border-box; /* Padding'i toplam genişlik ve yükseklik dahil eder */
+    top: 80px;
+    left: 100px;
+    bottom: 160px;
+    text-align: left;
+}
+
+.ek_div p {
+    margin: 0; /* Paragrafların varsayılan margin'ini sıfırlar */
+    line-height: 1.5; /* İstenilen satır yüksekliği */
+    padding-left: 220px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+.join_button{
+    margin-left: 220px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 130px;
+    height:50px ;
+}
+
+.join_button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    border: none;
+
+}
+
+.story{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+
+}
+
+.story p{
+    line-height: 0.11
+}
+
+.story_button{
+    color: white;
+    background-color: black;
+    border: none;
+    width: 130px;
+    height:50px ;
+    margin-top: 30px;
+
+}
+
+.story_button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    border: none;
+
+}
+
+.left_side{
+    background-color: #504f4f;
+    
+}
+
+.right_side img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Resmi yatayda ortala */
+}
+
+.twin_container{
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+.slider-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background 0.3s ease-in-out;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.arrow:hover {
+    background: #555;
+}
+
+
+.mom_says_p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.text_two{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.text_two p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image {
+    position: relative;
+    width: 20%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-right: 10px;
+    overflow: hidden; /* Resim dışına taşan overlay'ı gizler */
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Eklenen transition efekti */
+}
+
+.image:hover img {
+    transform: scale(1.1); /* Resim büyüklüğünü artırır (isteğe bağlı) */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Koyu opaklık için RGBA kullanıyoruz */
+    opacity: 0; /* Başlangıçta opaklık sıfır olacak */
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:hover .overlay {
+    opacity: 1; /* Resmin üzerine gelindiğinde opaklık 1'e çıkacak */
+}
